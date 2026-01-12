@@ -77,12 +77,12 @@ export const works = [
     tags: ["Web-design", "Development"],
     projectLink: "https://lumlum.netlify.app/",
   },
-  //   {
-  //     imgSrc: "/images/project-5.jpg",
-  //     title: "eCommerce website",
-  //     tags: ["eCommerce", "Development"],
-  //     projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  //   },
+  {
+    imgSrc: "/images/socially2.png",
+    title: "Social-media website",
+    tags: ["AUTH", "Development"],
+    projectLink: "https://socially-gamma-nine.vercel.app/",
+  },
   //   {
   //     imgSrc: "/images/project-6.jpg",
   //     title: "vCard Personal portfolio",
