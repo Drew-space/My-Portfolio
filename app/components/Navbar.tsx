@@ -25,13 +25,14 @@ const Navbar = ({ navOpen }: { navOpen: boolean }) => {
   const activeCurrentLink = (event: React.MouseEvent<HTMLAnchorElement>) => {
     if (!activeBox.current || !lastActiveLink.current) return;
     lastActiveLink.current?.classList.remove("active");
-    event?.target.classList.add("active");
-    lastActiveLink.current = event?.target as HTMLAnchorElement;
+     const target = event.currentTarget as HTMLAnchorElement;
+    target.classList.add("active");
+    lastActiveLink.current = target;
 
-    activeBox.current.style.top = event.target.offsetTop + "px";
-    activeBox.current.style.left = event.target.offsetLeft + "px";
-    activeBox.current.style.width = event.target.offsetWidth + "px";
-    activeBox.current.style.height = event.target.offsetHeight + "px";
+    activeBox.current.style.top = target.offsetTop + "px";
+    activeBox.current.style.left = target.offsetLeft + "px";
+    activeBox.current.style.width = target.offsetWidth + "px";
+    activeBox.current.style.height = target.offsetHeight + "px";
   };
 
   const navItems = [
