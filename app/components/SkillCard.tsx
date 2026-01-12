@@ -1,7 +1,17 @@
 import Image from "next/image";
 import React from "react";
 
-const SkillCard = ({ imgSrc, label, desc, classes }) => {
+const SkillCard = ({
+  imgSrc,
+  label,
+  desc,
+  classes,
+}: {
+  imgSrc: string;
+  label: string;
+  desc: string;
+  classes?: string; // optional
+}) => {
   return (
     <div
       className={

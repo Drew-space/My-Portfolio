@@ -15,15 +15,30 @@ const Skill = () => {
           exceptional, high-performing websites & applications.
         </p>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(250px,1fr))]">
-          {skillItem.map(({ imgSrc, label, desc, classes }, key) => (
-            <SkillCard
-              imgSrc={imgSrc}
-              label={label}
-              desc={desc}
-              classes={classes}
-              key={key}
-            />
-          ))}
+          {skillItem.map(
+            (
+              {
+                imgSrc,
+                label,
+                desc,
+                classes,
+              }: {
+                imgSrc: string;
+                label: string;
+                desc: string;
+                classes?: string; // optional
+              },
+              key
+            ) => (
+              <SkillCard
+                imgSrc={imgSrc}
+                label={label}
+                desc={desc}
+                classes={classes}
+                key={key}
+              />
+            )
+          )}
         </div>
       </div>
     </section>
