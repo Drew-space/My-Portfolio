@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useRef, useEffect } from "react";
 // import PropTypes from "prop-types";
 
-const Navbar = ({ navOpen }) => {
+const Navbar = ({ navOpen }: { navOpen: boolean }) => {
   const lastActiveLink = useRef<HTMLAnchorElement | null>(null);
   const activeBox = useRef<HTMLDivElement | null>(null);
 
