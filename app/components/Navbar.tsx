@@ -9,6 +9,7 @@ const Navbar = ({ navOpen }: { navOpen: boolean }) => {
   const initActiveBox = () => {
     console.log(lastActiveLink.current);
     console.log(activeBox.current);
+    if (!activeBox.current || !lastActiveLink.current) return;
     activeBox.current.style.top = lastActiveLink.current?.offsetTop + "px";
     activeBox.current.style.left = lastActiveLink.current?.offsetLeft + "px";
     activeBox.current.style.width = lastActiveLink.current?.offsetWidth + "px";
@@ -22,6 +23,7 @@ const Navbar = ({ navOpen }: { navOpen: boolean }) => {
   }, []);
 
   const activeCurrentLink = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!activeBox.current || !lastActiveLink.current) return;
     lastActiveLink.current?.classList.remove("active");
     event?.target.classList.add("active");
     lastActiveLink.current = event?.target as HTMLAnchorElement;
