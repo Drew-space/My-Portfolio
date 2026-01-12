@@ -100,7 +100,7 @@ const Contact = () => {
       alt: "Twitter X",
     },
     {
-      href: "",
+      href: "https://www.instagram.com/codewithsadee",
       icon: (
         <svg
           width="25"
@@ -147,8 +147,9 @@ const Contact = () => {
         </div>
 
         <form onSubmit={onSubmit} method="POST" className="xl:pl-10 2xl:pl-20">
-          <div className="md:grid md:items-center md:grid-cols-2 md:gap-2 ">
-            <div className=" mb-4">
+          {/* md:grid md:items-center md:grid-cols-2 md:gap-2 */}
+          <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className=" flex flex-col ">
               <label htmlFor="name">Name</label>
               <input
                 type="text"
@@ -160,7 +161,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="">
+            <div className="mb-4 ">
               <label htmlFor="email">Email</label>
               <input
                 type="email"
@@ -188,7 +189,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="btn btn-primary rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0 hover:scale-105 transition-transform px-3 py-3 [&]:max-w-full w-full justify-center"
+            className="btn btn-primary rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0 hover:scale-105 transition-transform px-3 py-3 [&]:max-w-full w-full justify-center mb-8"
           >
             {isSending ? "Sending..." : "Send Message"}
           </button>

@@ -11,9 +11,14 @@ export const aboutItems = [
 
 export const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
+    imgSrc: "/images/html.png",
     label: "Figma",
     desc: "Design tool",
+  },
+  {
+    imgSrc: "/images/Next.svg",
+    label: "NextJS",
+    desc: "Framework",
   },
   {
     imgSrc: "/images/css3.svg",
@@ -35,9 +40,10 @@ export const skillItem = [
     label: "ExpressJS",
     desc: "Node Framework",
   },
+
   {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
+    imgSrc: "/images/Convex.png",
+    label: "Convex",
     desc: "Database",
   },
   {
