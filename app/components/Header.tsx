@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 
 const Header = () => {
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
 
   return (
     <header className=" fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-b from-zinc-900 to-zinc-900/0">
