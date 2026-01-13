@@ -12,8 +12,8 @@ export const aboutItems = [
 export const skillItem = [
   {
     imgSrc: "/images/html.png",
-    label: "Figma",
-    desc: "Design tool",
+    label: "HTML",
+    desc: "Structure",
   },
   {
     imgSrc: "/images/Next.svg",
