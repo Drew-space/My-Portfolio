@@ -89,6 +89,12 @@ export const works = [
     tags: ["AUTH", "Development"],
     projectLink: "https://socially-gamma-nine.vercel.app/",
   },
+  {
+    imgSrc: "/images/e-com.png",
+    title: "A mini e-com website with stripe checkout",
+    tags: ["Web-design", "Development"],
+    projectLink: "https://mini-market-six.vercel.app/",
+  },
   //   {
   //     imgSrc: "/images/project-6.jpg",
   //     title: "vCard Personal portfolio",
