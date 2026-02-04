@@ -63,7 +63,7 @@ export const works = [
     imgSrc: "/images/project1.png",
     title: "Tastyy Kitchen Website",
     tags: ["Web-design", "Development"],
-    projectLink: "https://tastyykitchen.netlify.app/",
+    projectLink: "https://tasty-kitchen-beta-liart.vercel.app/",
   },
   {
     imgSrc: "/images/image-search.png",
