@@ -78,7 +78,7 @@ export const works = [
     projectLink: "https://hylink.vercel.app/",
   },
   {
-    imgSrc: "/images/project2.png",
+    imgSrc: "/images/lumlum.png",
     title: "web-design",
     tags: ["Web-design", "Development"],
     projectLink: "https://lumlum.vercel.app/",
