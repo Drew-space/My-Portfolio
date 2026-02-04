@@ -69,19 +69,19 @@ export const works = [
     imgSrc: "/images/image-search.png",
     title: "Free  photo app",
     tags: ["API", "web-development"],
-    projectLink: "https://image-search-pexel.netlify.app/",
+    projectLink: "https://image-search-pexels.vercel.app/",
   },
   {
     imgSrc: "/images/project3.png",
     title: "A Traveling landing page",
     tags: ["Development", "API"],
-    projectLink: "https://hylink.netlify.app/",
+    projectLink: "https://hylink.vercel.app/",
   },
   {
     imgSrc: "/images/project2.png",
     title: "web-design",
     tags: ["Web-design", "Development"],
-    projectLink: "https://lumlum.netlify.app/",
+    projectLink: "https://lumlum.vercel.app/",
   },
   {
     imgSrc: "/images/socially2.png",
