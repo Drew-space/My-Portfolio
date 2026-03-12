@@ -30,16 +30,16 @@ export const skillItem = [
     label: "JavaScript",
     desc: "Interaction",
   },
-  {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
-  },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
-  },
+  // {
+  //   imgSrc: "/images/nodejs.svg",
+  //   label: "NodeJS",
+  //   desc: "Web Server",
+  // },
+  // // {
+  //   imgSrc: "/images/expressjs.svg",
+  //   label: "ExpressJS",
+  //   desc: "Node Framework",
+  // },
 
   {
     imgSrc: "/images/Convex.png",
@@ -60,10 +60,10 @@ export const skillItem = [
 
 export const works = [
   {
-    imgSrc: "/images/project1.png",
-    title: "Tastyy Kitchen Website",
+    imgSrc: "/images/dreamzint.png",
+    title: "Dreamz-Interior",
     tags: ["Web-design", "Development"],
-    projectLink: "https://tasty-kitchen-beta-liart.vercel.app/",
+    projectLink: "https://dreamzint.vercel.app/",
   },
   {
     imgSrc: "/images/image-search.png",
@@ -95,10 +95,10 @@ export const works = [
     tags: ["Web-design", "Development"],
     projectLink: "https://mini-market-six.vercel.app/",
   },
-  //   {
-  //     imgSrc: "/images/project-6.jpg",
-  //     title: "vCard Personal portfolio",
-  //     tags: ["Web-design", "Development"],
-  //     projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
-  //   },
+  {
+    imgSrc: "/images/devbyte.png",
+    title: "Dev-Byte",
+    tags: ["Web-design", "Blog-website"],
+    projectLink: "https://dev-byte-seven.vercel.app/",
+  },
 ];
