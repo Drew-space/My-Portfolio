@@ -101,4 +101,10 @@ export const works = [
     tags: ["Web-design", "Blog-website"],
     projectLink: "https://dev-byte-seven.vercel.app/",
   },
+  {
+    imgSrc: "/images/ruum.png",
+    title: "RUUM",
+    tags: ["Web-design", "House Hunting"],
+    projectLink: "ruum-nine.vercel.app",
+  },
 ];
